@@ -189,7 +189,7 @@ module.exports = function normalizeComponent (
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_selector_type_script_index_0_jsfiddle_btn_vue__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_47ab1f84_hasScoped_false_preserveWhitespace_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_jsfiddle_btn_vue__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_27805aad_hasScoped_false_preserveWhitespace_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_jsfiddle_btn_vue__ = __webpack_require__(6);
 function injectStyle (ssrContext) {
   this["$s"] = __webpack_require__(2)
 }
@@ -208,7 +208,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_selector_type_script_index_0_jsfiddle_btn_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_47ab1f84_hasScoped_false_preserveWhitespace_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_jsfiddle_btn_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_27805aad_hasScoped_false_preserveWhitespace_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_jsfiddle_btn_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -231,7 +231,6 @@ module.exports = {"logo":"s7aBA085OoCcIl2oFn4cT_0","openButton":"_3xvAQ2NxXyk3c5
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__jsfiddlesvg_vue__ = __webpack_require__(4);
-//
 //
 //
 //
@@ -358,7 +357,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('form',{attrs:{"method":"post","target":"_blank","action":"http://jsfiddle.net/api/post/library/pure/"}},[_vm._l((_vm.props),function(prop){return [(_vm.getProp(prop))?_c('input',{attrs:{"type":"hidden","name":prop},domProps:{"value":_vm.getProp(prop)}}):_vm._e()]}),_vm._v("\n\tass\n\t"),_c('button',{class:_vm.$s.openButton},[_c('JsfiddleSVG',{class:_vm.$s.logo}),_vm._v("\n\t\tOpen in JSFiddle\n\t")],1)],2)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('form',{attrs:{"method":"post","target":"_blank","action":"http://jsfiddle.net/api/post/library/pure/"}},[_vm._l((_vm.props),function(prop){return [(_vm.getProp(prop))?_c('input',{attrs:{"type":"hidden","name":prop},domProps:{"value":_vm.getProp(prop)}}):_vm._e()]}),_c('button',{class:_vm.$s.openButton},[_c('JsfiddleSVG',{class:_vm.$s.logo}),_vm._v("\n\t\tOpen in JSFiddle\n\t")],1)],2)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);

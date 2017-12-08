@@ -8,7 +8,6 @@
 				:value="getProp(prop)"
 			>
 		</template>
-		ass
 		<button :class="$s.openButton">
 			<JsfiddleSVG :class="$s.logo" />
 			Open in JSFiddle
