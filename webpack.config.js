@@ -32,6 +32,9 @@ const WebpackConfig = module.exports = {
 	},
 
 	plugins: [
+		new webpack.optimize.UglifyJsPlugin({
+			minimize: true,
+		}),
 		new ExtractTextPlugin({
 			filename: '[name].css',
 			allChunks: true,
